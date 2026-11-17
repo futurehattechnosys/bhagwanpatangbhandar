@@ -1,0 +1,26 @@
+# Local configuration and server-specific files
+/wp-config.php
+/.htaccess
+/.user.ini
+/.private/
+
+# User-generated media and runtime data
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/litespeed/
+
+# Backup plugins
+/wp-content/ai1wm-backups/
+/wp-content/updraft/
+/wp-content/wpvividbackups/
+/wp-content/backups/
+/wp-content/backup/
+
+# Local/editor and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
